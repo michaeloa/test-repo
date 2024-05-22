@@ -3,8 +3,7 @@
 # See all available variables at https://megalinter.io/latest/config-file/ and in
 # linters documentation
 
-REPORT_OUTPUT_FOLDER: ${GITHUB_WORKSPACE}/build/lint-reports
-
+REPORT_OUTPUT_FOLDER: ${GITHUB_WORKSPACE}/build/megalinter
 # all, none, or list of linter keys
 APPLY_FIXES: none
 
