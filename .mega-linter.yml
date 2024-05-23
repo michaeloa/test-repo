@@ -7,7 +7,7 @@ LINTER_RULES_PATH: /home/michael.akinde/.local/devxp/linters
 
 REPORT_OUTPUT_FOLDER: none #set due to https://github.com/oxsecurity/megalinter/issues/1975
 
-KOTLIN_DETEKT_ARGUMENTS: -c /home/michael.akinde/.local/devxp/linters/detekt-config.yml .
+KOTLIN_DETEKT_ARGUMENTS: "-c /home/michael.akinde/.local/devxp/linters/detekt-config.yml"
 
 # all, none, or list of linter keys
 APPLY_FIXES: none
