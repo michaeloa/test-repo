@@ -3,8 +3,9 @@
 # See all available variables at https://megalinter.io/latest/config-file/ and in
 # linters documentation
 
-REPORT_OUTPUT_FOLDER: ${GITHUB_WORKSPACE}/build/reports
-# none #set due to https://github.com/oxsecurity/megalinter/issues/1975
+LINTER_RULES_PATH: $HOME/.local/devxp/linters
+
+REPORT_OUTPUT_FOLDER: none #set due to https://github.com/oxsecurity/megalinter/issues/1975
 
 # all, none, or list of linter keys
 APPLY_FIXES: none
